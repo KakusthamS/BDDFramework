@@ -26,6 +26,7 @@ public class LoginStepsDefinition {
 	}
 //THISIS TO LOGIN THE PAGW WITH DETAILS GIVEN
 	@When("user enters valid username and password")
+	// Here iam entering details
 	public void user_enters_valid_username_and_password() {
 	    driver.findElement(By.id("user-name")).sendKeys("standard_user");
 	    driver.findElement(By.id("password")).sendKeys("secret_sauce");
